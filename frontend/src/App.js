@@ -1,4 +1,3 @@
-import { RouterLink } from "vue-router";
 import HeaderComp from "./components/HeaderComp.js";
 import FooterComp from "./components/FooterComp.js";
 
@@ -9,10 +8,10 @@ export default {
     FooterComp
   },
   template:/*html*/ `
-    <header-comp/>
+    <header-comp></header-comp>
     <main>
-      <router-view/>
-      <footer-comp/>
+      <router-view></router-view>
+      <footer-comp></footer-comp>
     </main>
   `
 };
